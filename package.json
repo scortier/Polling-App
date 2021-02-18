@@ -1,0 +1,30 @@
+{
+  "name": "polling-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scortier/Polling-App.git"
+  },
+  "author": "Aditya Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scortier/Polling-App/issues"
+  },
+  "homepage": "https://github.com/scortier/Polling-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17",
+    "pusher": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
